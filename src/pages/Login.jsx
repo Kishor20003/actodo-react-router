@@ -27,6 +27,7 @@ var userfound=false
     })
 if(userfound==false){
     console.log("Login Failed")
+    setruser(false)
 }
 
 }
