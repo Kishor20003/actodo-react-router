@@ -22,7 +22,7 @@ function handleuinput(evt){
 
     function addusers(){
 setusers([...users,{username:euser,password:epass}])
-        navigate("/login")
+        navigate("/")
     }
 
 
