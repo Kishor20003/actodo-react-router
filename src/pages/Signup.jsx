@@ -36,7 +36,7 @@ setusers([...users,{username:euser,password:epass}])
             <input  onChange={handlepinput} type="text" className="w-52 border-black p-1 border bg-transparent rounded-md" placeholder="Password"></input>
             <input type="text" className="w-52 border-black p-1 border bg-transparent rounded-md" placeholder="Confirm Password"></input>
        <button onClick={addusers} className="bg-[#8272DA] w-24 p-1 rounded-md">Signup</button>
-       <p>Already have an account? <Link to={"/login"} className="underline">Login</Link></p>
+       <p>Already have an account? <Link to={"/"} className="underline">Login</Link></p>
         </div>
 
     </div>
